@@ -9,6 +9,7 @@ This is a whatsapp chatbot using Openai's GPT-3, python, twilio and flask
 * Openai
 * python-dotenv
 * pyngrok
+* Twilio
 
 # create a virtual environment
 > Mac Os
