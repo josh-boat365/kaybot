@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 from chatbot import ask, append_interaction_to_chat_log
 
 app = Flask(__name__)
-# if for some reason your conversation with the chef gets weird, change the secret key 
+# if for some reason your conversation with the bot gets weird, change the secret key 
 app.config['SECRET_KEY'] = 'anonymously-secretAJSAASqwio2323!'
 
 @app.route('/')
